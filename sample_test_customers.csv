@@ -1,0 +1,6 @@
+customer_id,vintage,age,gender,dependents,occupation,city,customer_nw_category,branch_code,current_balance,previous_month_end_balance,average_monthly_balance_prevQ,average_monthly_balance_prevQ2,current_month_credit,previous_month_credit,current_month_debit,previous_month_debit,current_month_balance,previous_month_balance,last_transaction,expected_risk
+1001,2101,45,Male,0,salaried,187,2,755,1458.71,1458.71,1458.71,1449.07,0.20,0.20,0.20,0.20,1458.71,1458.71,2019-05-21,Low Risk
+1002,500,28,Female,2,self_employed,1020,1,102,50.00,2500.00,3200.00,4500.00,10.00,50.00,2450.00,1800.00,150.00,2100.00,2018-01-10,High Risk
+1003,3200,60,Male,1,retired,318,3,45,8540.20,8400.00,8200.00,8000.00,200.00,250.00,100.00,150.00,8450.00,8350.00,2019-06-01,Low Risk
+1004,180,22,Female,0,student,50,1,88,120.00,500.00,800.00,1200.00,5.00,10.00,380.00,400.00,250.00,600.00,2018-08-15,High Risk
+1005,1500,38,Male,3,company,710,2,312,3400.50,3300.00,3200.00,3100.00,150.00,150.00,200.00,180.00,3350.00,3250.00,2019-04-30,Medium Risk
