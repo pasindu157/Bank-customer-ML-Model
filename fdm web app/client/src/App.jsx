@@ -3,6 +3,7 @@ import { Header } from './components/Header';
 import { PresetButtons } from './components/PresetButtons';
 import { CustomerForm } from './components/CustomerForm';
 import { ResultCard } from './components/ResultCard';
+import { BalanceChart } from './components/BalanceChart';
 import { checkHealth, predictChurn } from './services/api';
 
 const defaultFormData = {
@@ -112,8 +113,9 @@ export function App() {
         />
 
         <div>
-          <div style={{ sticky: true, top: '1.5rem' }}>
+          <div style={{ position: 'sticky', top: '1.5rem', display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
             <ResultCard result={predictionResult} error={error} />
+            <BalanceChart formData={formData} />
           </div>
         </div>
       </div>
